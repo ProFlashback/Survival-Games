@@ -55,7 +55,7 @@ public class CommandHandler implements CommandExecutor {
 		commands.put("setspawn", new SetSpawn());
 		commands.put("getcount", new ListArenas());
 		commands.put("disable", new Disable());
-		commands.put("start", new ForceStart());
+		commands.put("forcestart", new ForceStart());
 		commands.put("enable", new Enable());
 		commands.put("vote", new Vote());
 		commands.put("leave", new Leave());
@@ -82,7 +82,7 @@ public class CommandHandler implements CommandExecutor {
 		helpinfo.put("setspawn", 3);
 		helpinfo.put("getcount", 3);
 		helpinfo.put("disable", 2);
-		helpinfo.put("start", 2);
+		helpinfo.put("forcestart", 2);
 		helpinfo.put("enable", 2);
 		helpinfo.put("vote", 1);
 		helpinfo.put("leave", 1);
